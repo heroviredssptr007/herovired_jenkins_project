@@ -23,6 +23,12 @@
     - Run below commands
 
 ```
+sudo apt update
+sudo apt install openjdk-17-jdk -y
+
+```
+
+```
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 ```
@@ -40,7 +46,13 @@ sudo apt-get update
 ```
 sudo apt-get install jenkins
 ```
-  
+
+![image](https://github.com/user-attachments/assets/ad797145-6481-402f-b5d9-b4374472d2ca)
+
+
+
+
+
   
 
 
