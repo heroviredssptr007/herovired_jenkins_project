@@ -16,8 +16,28 @@
     - In Network settings, Create Security Group
       - Enable Port 22, 8080
     - Click on Launch EC2
+  ![image](https://github.com/user-attachments/assets/aa1c0d73-1894-44c2-9e4a-b0b79e535578)
 
-  - 
+
+  - ### Jenkins installation
+    - Run below commands
+      ```
+      sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+  ```
+
+   ```
+  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+  ```
+  ```
+  sudo apt-get update
+  ```
+  ```
+  sudo apt-get install jenkins
+  ```
+  
   
 
 
