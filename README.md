@@ -1,4 +1,4 @@
-# herovired_jenkins_project
+![image](https://github.com/user-attachments/assets/1f6b4c53-bd5c-4851-8957-73bac94f0e3e)# herovired_jenkins_project
 ---------------------------------------
 ## Jenkins Installation
 - ### Creation of EC2
@@ -49,11 +49,26 @@ sudo apt-get install jenkins
 
 ![image](https://github.com/user-attachments/assets/ad797145-6481-402f-b5d9-b4374472d2ca)
 
-Please provide password by using given and click on continue
+- Please provide password by using given and click on continue
 
 ![image](https://github.com/user-attachments/assets/a2b61548-1efd-4bee-9955-8218ae6ef321)
 
 ![image](https://github.com/user-attachments/assets/120263da-1e08-4a07-94ff-535e580fc17f)
+
+- Select **Install Suggested plugins** option
+  ![image](https://github.com/user-attachments/assets/a75e006e-28c1-4167-9a36-58b6aa3405f3)
+
+- Creation of Admin user: Provide information like Username, Password, Confirm Password, Full name and   E-mail address
+    ![image](https://github.com/user-attachments/assets/e70bb499-77a7-4115-b1ab-7b0e0e248190)
+
+![image](https://github.com/user-attachments/assets/3a2acbfd-1b76-4377-8fce-1fa1aa663804)
+
+
+
+
+
+
+
 
 
 
