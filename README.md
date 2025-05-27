@@ -29,7 +29,7 @@ echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 sudo apt-get update
 sudo apt-get install jenkins
-  ```
+      ```
   
   
 
