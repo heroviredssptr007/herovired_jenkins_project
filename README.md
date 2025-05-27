@@ -49,6 +49,14 @@ sudo apt-get install jenkins
 
 ![image](https://github.com/user-attachments/assets/ad797145-6481-402f-b5d9-b4374472d2ca)
 
+Please provide password by using given and click on continue
+
+![image](https://github.com/user-attachments/assets/a2b61548-1efd-4bee-9955-8218ae6ef321)
+
+![image](https://github.com/user-attachments/assets/120263da-1e08-4a07-94ff-535e580fc17f)
+
+
+
 
 
 
