@@ -63,6 +63,18 @@ sudo apt-get install jenkins
 
 ![image](https://github.com/user-attachments/assets/3a2acbfd-1b76-4377-8fce-1fa1aa663804)
 
+## Application Installation
+
+```
+#sudo apt install -y python3 python3-pip
+```
+```
+#pip install flask
+```
+
+
+
+
 
 
 
