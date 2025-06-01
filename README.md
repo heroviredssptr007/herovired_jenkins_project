@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1f6b4c53-bd5c-4851-8957-73bac94f0e3e)# herovired_jenkins_project
+# herovired_jenkins_project
 ---------------------------------------
 ## Jenkins Installation
 - ### Creation of EC2
