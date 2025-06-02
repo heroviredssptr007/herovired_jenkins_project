@@ -80,7 +80,8 @@ sudo apt-get install jenkins
 
 Add extra code in app.py
 
-![image](https://github.com/user-attachments/assets/32c36fda-0cad-4d92-9584-8b3b1cba4b8d)
+![image](https://github.com/user-attachments/assets/1e434498-6609-4336-a9fb-d6784a6c0070)
+
 
 ![image](https://github.com/user-attachments/assets/f4f8ae85-ea6d-452d-b914-fd5f77ac4c83)
 
