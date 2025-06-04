@@ -142,33 +142,19 @@ sudo apt-get install jenkins
 
       - Change the code app.py in github repository
 
-        ```
-        
-  from flask import Flask
-app=Flask(__name__)
+      ![image](https://github.com/user-attachments/assets/3d7afe24-2745-4b99-a958-c2f080fc41c8)
+
+      - It will start new build
+
+        ![image](https://github.com/user-attachments/assets/abd2395e-933d-4c73-9112-84344153090e)
+
+        ![image](https://github.com/user-attachments/assets/62045f99-6b26-4982-89bc-e6dd536f725c)
 
 
-@app.route('/hello')
-def hello():
-    return "Hello World!"
 
-@app.route('/')
-def hi():
-    return "Hi World!"
+       
 
 
-@app.route('/greet')
-def greet():
-    return "Hi Good morning have a nice day!"
-
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0.",debug=False)
-    
-
-        ```
-
-![image](https://github.com/user-attachments/assets/3d7afe24-2745-4b99-a958-c2f080fc41c8)
 
   
 
