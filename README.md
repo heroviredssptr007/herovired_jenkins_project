@@ -89,9 +89,14 @@ sudo apt-get install jenkins
 
   -  Click on Personal access tokens and select Tokens(classic), Click Generate new token and select Generate new token(classic)
 
-    ![image](https://github.com/user-attachments/assets/f6d65421-5e14-4950-82e4-ff0bc4a2a5d2)
+    ![image](https://github.com/user-attachments/assets/2a0b8702-841c-4875-8738-ba3433491fdb)
 
-  - 
+  - Provide the name to the token, select all the permission required and Click on Generate Token
+
+    ![image](https://github.com/user-attachments/assets/5eee2738-0462-42e8-a714-b1fcd8fbd552)
+
+
+    
 
 
 
