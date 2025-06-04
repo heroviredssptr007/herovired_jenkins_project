@@ -78,12 +78,24 @@ sudo apt-get install jenkins
 
 ![image](https://github.com/user-attachments/assets/106e14cc-8cf1-4e29-ae2b-5126e99e296d)
 
-Add extra code in app.py
+## Creation of Jenkins Job
+- Github password creation
+  - Go to Profile and Select Setting
+    ![image](https://github.com/user-attachments/assets/2ee688c3-a45f-461e-8823-39a1f8896025)
 
-![image](https://github.com/user-attachments/assets/1e434498-6609-4336-a9fb-d6784a6c0070)
+  - Select the Developer setting
+
+    ![image](https://github.com/user-attachments/assets/ceb599ca-477f-4f58-ae5b-4cbfe155b620)
+
+  -  Click on Personal access tokens and select Tokens(classic), Click Generate new token and select Generate new token(classic)
+
+    ![image](https://github.com/user-attachments/assets/f6d65421-5e14-4950-82e4-ff0bc4a2a5d2)
+
+  - 
 
 
-![image](https://github.com/user-attachments/assets/f4f8ae85-ea6d-452d-b914-fd5f77ac4c83)
+
+
 
 
 
