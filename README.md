@@ -123,6 +123,67 @@ sudo apt-get install jenkins
 
     ![image](https://github.com/user-attachments/assets/36ea4174-23b6-4550-ba79-f3cce36d2e75)
 
+- ## Creation of Webhook for automatic building process
+  
+  - ### Git hub webhook settings
+    - Click on Settings of perticular repo, click on webhooks and click on `Add Webhook`
+
+      ![image](https://github.com/user-attachments/assets/b16126ac-4b77-4f47-826f-7cac4fe62b1a)
+
+    - Provide `Payload URL: http://107.21.85.253:8080/webhook` and click on `Add webhook`
+
+      ![image](https://github.com/user-attachments/assets/14787990-81e4-4e4f-bdf8-3cd52f61d681)
+
+      ![image](https://github.com/user-attachments/assets/5d0f79a3-a447-468e-9280-87a97fd577b1)
+
+    - Configuration Jenkinks
+      - Click on Jenkins job and select configure option and trigger section, Check the `GitHub hook trigger for GITScm polling` option and click on SAVE.
+        ![image](https://github.com/user-attachments/assets/1ebca71e-a831-4832-aaa9-8cef69586479)
+
+      - Change the code app.py in github repository
+
+        ```
+from flask import Flask
+app=Flask(__name__)
+
+
+@app.route('/hello')
+def hello():
+    return "Hello World!"
+
+@app.route('/')
+def hi():
+    return "Hi World!"
+
+
+@app.route('/greet')
+def greet():
+    return "Hi Good morning have a nice day!"
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0.",debug=False)
+
+        ```
+
+![image](https://github.com/user-attachments/assets/3d7afe24-2745-4b99-a958-c2f080fc41c8)
+
+  
+
+
+
+
+        
+
+`
+        
+
+
+
+
+      
+      
+
 
     
 
