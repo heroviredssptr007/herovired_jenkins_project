@@ -79,7 +79,7 @@ sudo apt-get install jenkins
 ![image](https://github.com/user-attachments/assets/106e14cc-8cf1-4e29-ae2b-5126e99e296d)
 
 ## Creation of Jenkins Job
-- Github password creation
+- ### Github password creation
   - Go to Profile and Select Setting
     ![image](https://github.com/user-attachments/assets/2ee688c3-a45f-461e-8823-39a1f8896025)
 
@@ -91,9 +91,50 @@ sudo apt-get install jenkins
 
     ![image](https://github.com/user-attachments/assets/2a0b8702-841c-4875-8738-ba3433491fdb)
 
-  - Provide the name to the token, select all the permission required and Click on Generate Token
+  - Provide the name to the token, select all the permission required and Click on Generate Token, Copy and Keep it safe the token
 
     ![image](https://github.com/user-attachments/assets/5eee2738-0462-42e8-a714-b1fcd8fbd552)
+
+    ![image](https://github.com/user-attachments/assets/dfc18817-98dc-4650-bb12-4413d2e42a0e)
+
+- ### Adding github and ssh credentials
+  - Go to Manage Jenkins ->  Select Credentials -> Click on System -> Click on Global Credentials -> Click on Add Credentials
+
+    ![image](https://github.com/user-attachments/assets/a19b041d-349d-4f14-bf9d-42be25b4c1ca)
+
+  - Select Username and Password option and provide Username, Password and click on Create
+
+    ![image](https://github.com/user-attachments/assets/50584c6a-7cbf-45f6-b41d-0d2135e671ba)
+
+  - Adding SSH credentials
+    - Click on Add credentials and Select `SSH username with private key` option, Provide information like Username and private key and click on Create
+      ![image](https://github.com/user-attachments/assets/89b167e8-e6d1-44ac-8a11-6bfeabc8d5fa)
+
+- ### Creation of Jenkins Job
+  - Click on Create job, Provide name and select Pipeline and click OK
+
+    ![image](https://github.com/user-attachments/assets/9cfe2c83-ef19-4a3d-a94b-f46de61b8693)
+
+  - In General section, **Pipeline**, Select `Pipeline script from SCM`, In SCM select GIT and provide the repository path, In Credentials select github credential. In Branch Specifier provide Branch as `main` and click on save. Click on Build now option
+
+    ![image](https://github.com/user-attachments/assets/1a272184-993b-4ad6-a63b-39ada95baf39)
+
+    ![image](https://github.com/user-attachments/assets/608d649c-3fd1-442d-9325-02cc31d86251)
+
+    
+
+
+  
+
+    
+    
+
+
+      
+
+    
+
+
 
 
     
